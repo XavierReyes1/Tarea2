@@ -1,0 +1,28 @@
+^C:\USERS\USER\DESKTOP\FLUTTER\TAREA\FLUTTER_APPLICATION_1\BUILD\WINDOWS\X64\CMAKEFILES\28B1B9CA917AFD768CF7FB7C72C12745\FLUTTER_WINDOWS.DLL.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E env FLUTTER_ROOT=C:\Users\User\Downloads\dart\flutter PROJECT_DIR=C:\Users\User\Desktop\flutter\tarea\flutter_application_1 FLUTTER_ROOT=C:\Users\User\Downloads\dart\flutter FLUTTER_EPHEMERAL_DIR=C:\Users\User\Desktop\flutter\tarea\flutter_application_1\windows\flutter\ephemeral PROJECT_DIR=C:\Users\User\Desktop\flutter\tarea\flutter_application_1 FLUTTER_TARGET=C:\Users\User\Desktop\flutter\tarea\flutter_application_1\lib\main.dart DART_DEFINES=RkxVVFRFUl9XRUJfQVVUT19ERVRFQ1Q9dHJ1ZQ==,RkxVVFRFUl9XRUJfQ0FOVkFTS0lUX1VSTD1odHRwczovL3d3dy5nc3RhdGljLmNvbS9mbHV0dGVyLWNhbnZhc2tpdC8wNDgxN2M5OWM5ZmQ0OTU2ZjI3NTA1MjA0ZjdlMzQ0MzM1ODEwYWVkLw== DART_OBFUSCATION=false TRACK_WIDGET_CREATION=true TREE_SHAKE_ICONS=false PACKAGE_CONFIG=C:\Users\User\Desktop\flutter\tarea\flutter_application_1\.dart_tool\package_config.json C:/Users/User/Downloads/dart/flutter/packages/flutter_tools/bin/tool_backend.bat windows-x64 Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\USER\DESKTOP\FLUTTER\TAREA\FLUTTER_APPLICATION_1\BUILD\WINDOWS\X64\CMAKEFILES\3D064FBE01AA1F5CA862F2393F2472E5\FLUTTER_ASSEMBLE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\USER\DESKTOP\FLUTTER\TAREA\FLUTTER_APPLICATION_1\WINDOWS\FLUTTER\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/User/Desktop/flutter/tarea/flutter_application_1/windows -BC:/Users/User/Desktop/flutter/tarea/flutter_application_1/build/windows/x64 --check-stamp-file C:/Users/User/Desktop/flutter/tarea/flutter_application_1/build/windows/x64/flutter/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
